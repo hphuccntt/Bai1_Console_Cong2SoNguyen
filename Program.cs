@@ -2,6 +2,7 @@
 {
     private static void Main(string[] args)
     {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.Write(" Chao Toi Ten La :");
         string ten = Console.ReadLine();
         Console.WriteLine("Toi Ten :" + ten);
@@ -17,7 +18,7 @@
         Console.WriteLine(" Tong cua hai so la :" + tong) ;
         Console.WriteLine("{0} + {1} = {2}",  sothunhat, sothuhai, tong);
         */
-        
+       
 
     }
 }
